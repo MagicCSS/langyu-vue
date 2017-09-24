@@ -1,0 +1,182 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,ul,ol,li,
+button,input,textarea,th,td,nav,figure,figcaption {
+	margin: 0;
+	padding: 0;
+}
+body,button,input,select,textarea {
+	font: 12px/1.5 "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif,\5b8b\4f53;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+em {
+	font-style: normal;
+}
+body {
+	background-color: #f2f2f2;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+button,input,select,textarea {
+	font-size: 100%;
+}
+.clear::after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clear {
+	zoom: 1;
+}
+.w980 {
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.w200 {
+	width: 200px;
+}
+.w770 {
+	width: 770px;
+}
+.wb {
+	border: 1px solid #fff;
+}
+.b12 {
+	border-radius: 12px;
+}
+.b15 {
+	border-radius: 15px;
+}
+
+header {
+	height: 90px;
+}
+.logo {
+	float: left;
+	width: 248px;
+	height: 90px;
+}
+.tel {
+	float: right;
+	width: 220px;
+	height: 90px;
+	line-height: 90px;
+}
+.logo img,
+.tel img {
+	width: 100%;
+	height: 100%;
+}
+
+.page,
+.page .wb {
+	border-radius: 10px;
+}
+.page {
+	margin-top: 10px;
+	border: 1px solid #e2e2e2;
+	background-color: #f9f9f9;
+}
+nav {
+	padding-top: 10px;
+}
+nav ul {
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+	width: 108px;
+	height: 30px;
+	margin-left: 5%;
+	text-align: center;
+}
+nav ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	line-height: 30px;
+	color: #797878;
+	font-weight: bold;
+}
+nav ul li:hover {
+	background: url(../images/menu-hover.png) no-repeat;
+	background-size: 100% 100%;
+}
+nav ul li:hover a { color: #fff; }
+
+.location {
+	text-align: right;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+}
+.location,
+.location a {
+	color: #797878;
+}
+.location a:hover {
+	color: #f39800;
+}
+
+footer {
+	width: 100%;
+	height: 160px;
+	background-color: #2d2d2d;
+}
+.copyright {
+	position: relative;
+	float: left;
+	width: 260px;
+	margin-right: 45px;
+}
+.copyright1 a {
+	display: block;
+	width: 248px;
+}
+.copyright img {
+	width: 100%;
+}
+.copyright2 span {
+	color: #ecece4;
+}
+.copyright::after {
+	content: "";
+	position: absolute;
+	right:0;
+	top:0;
+	width: 12px;
+	height: 160px;
+	background: url(../images/line-right.jpg) no-repeat;
+}
+footer a {
+	color: #797878;
+}
+footer a:hover {
+	color: #f39800;
+}
+.subnav,
+.subnav ul {
+	float: left;
+}
+.subnav ul {
+	width: 145px;
+	padding-top: 25px;
+}
+.subnav ul h2 {
+	color: #ecece4;
+}
+.subnav ul li {
+	height: 25px;
+	line-height: 25px;
+}

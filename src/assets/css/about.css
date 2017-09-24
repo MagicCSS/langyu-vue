@@ -1,0 +1,164 @@
+.about-banner {
+	width: 944px;
+	height: 260px;
+	margin: 20px auto;
+}
+
+
+.content-left {
+	float: left;
+	width: 200px;
+	
+}
+.about,
+.tuanzhuang,
+.events,
+.title,
+.intro-content,
+.news {
+	margin-bottom: 10px;
+	background-color: #f9f9f9;
+	border: 1px solid #e2e2e2;
+	box-shadow: 0 3px 3px 1px rgba(192,192,192,0.5);
+}
+.about-title,
+.tuanzhuang-title,
+.events-title {
+	position: relative;
+	width: 164px;
+	margin: 20px auto;
+	padding-bottom: 10px;
+}
+.about-title::after,
+.tuanzhuang-title::after,
+.events-title::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 164px;
+	height: 1px;
+	background: url(../images/line-bottom2.png) no-repeat;
+}
+.side-nav {
+	width: 164px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	line-height: 38px;
+	text-align: center;
+}
+.side-nav a {
+	display: block;
+	width: 100%;
+	height: 38px;
+	padding-left:10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #797878;
+	background: url(../images/side-nav-bg.png) no-repeat;
+}
+.side-nav .cur,
+.side-nav a:hover {
+	color: #fff;
+	background-image: url(../images/side-nav-bg2.png);
+}
+
+.tuanzhuang-content,
+.events-content {
+	width: 165px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.tuanzhuang-content img,
+.events-content img {
+	width: 100%;
+}
+
+.content-right {
+	float: right;
+	width: 770px;
+}
+.title {
+	width: 100%;
+	height: 65px;
+	margin-bottom: 10px;
+	border: 1px solid #e2e2e2;
+}
+.title .wb {
+	height: 63px;
+}
+.title h1 {
+	padding-left: 18px;
+	font-size: 22px;
+	font-weight: normal;
+	color: #F39800;
+	line-height: 65px;
+}
+
+.intro-content {
+	width: 100%;
+	border: 1px solid #e2e2e2;
+}
+.intro-img,
+.intro-words {
+	width: 750px;
+	margin: 18px auto;
+}
+.intro-img {
+	height: 570px;
+}
+.intro-words p {
+	text-indent: 2em;
+	font-size:14px;
+	font-family:'Microsoft YaHei';
+	line-height: 25px;
+}
+
+.news .wb {
+	padding: 18px;
+}
+.news figure {
+	float: left;
+	width: 220px;
+	height: 160px;
+	overflow: hidden;
+}
+.news figure img {
+	width: 100%;
+	height: 100%;
+	transform: scale(1);
+	transition: transform 0.4s;
+}
+.news:hover img {
+	transform: scale(1.1);
+}
+.news figcaption {
+	float: right;
+	width: 494px;
+}
+.news h1 {
+	width: 494px;
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+}
+.news h1 a {
+  font-size: 16px;
+  font-weight: bold;
+	color: #797878;
+}
+.news h1 a:hover {
+	color: #f39800;
+}
+.news h1 em {
+	float: right;
+	font-style: normal;
+	font-weight: normal;
+	color: #888888;
+}
+.news p {
+	line-height: 22px;
+}
+.news p a {
+	color: #f00;
+}

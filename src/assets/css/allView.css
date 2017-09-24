@@ -1,0 +1,237 @@
+.all-view-banner {
+	width: 944px;
+	height: 260px;
+	margin: 20px auto;
+}
+
+.content-left {
+	width: 200px;
+	float: left;
+}
+
+.sidebar,
+.visit,
+.events,
+.intro {
+	width: 100%;
+	margin-bottom: 10px;
+	border: 1px solid #e2e2e2;
+	background-color: #f9f9f9;
+	box-shadow: 0 3px 3px 1px rgba(192,192,192,0.5);
+}
+.sidebar-title,
+.visit-title,
+.events-title {
+	position: relative;
+	width: 164px;
+	margin: 20px auto;
+	padding-bottom: 10px;
+}
+.sidebar-title::after,
+.visit-title::after,
+.events-title::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 164px;
+	height: 1px;
+	background: url(../images/line-bottom2.png) no-repeat;
+}
+.side-nav {
+	width: 164px;
+	height: 38px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	line-height: 38px;
+	text-align: center;
+}
+.side-nav a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left:10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #797878;
+	background: url(../images/side-nav-bg.png) no-repeat;
+}
+.side-nav a:hover {
+	color: #fff;
+	background-image: url(../images/side-nav-bg2.png);
+}
+
+.visit .wb {
+	padding-bottom: 20px;
+}
+.demo {
+	overflow: hidden;
+	height: 150px;
+	width: 164px;
+	padding-left: 20px;
+	line-height: 25px;
+}
+.demo p {
+	margin-bottom: 10px;
+	color: #797878;
+	font-weight: bold;
+}
+
+.events-content {
+	width: 165px;
+	height: 65px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.events-content img {
+	width: 100%;
+}
+
+.content-right {
+	float: right;
+	width: 770px;
+}
+
+.intro {
+	width: 100%;
+	border: 1px solid #e2e2e2;
+}
+.intro-title {
+	position: relative;
+	width: 100%;
+	height: 38px;
+	margin-bottom: 20px;
+}
+.intro-title::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 286px;
+	height: 1px;
+	background: url(../images/intro-title-line.png) no-repeat;
+}
+.intro .wb {
+	padding: 20px 18px;
+	box-sizing: border-box;
+}
+.intro figure {
+	float: left;
+	width: 220px;
+	height: 160px;
+	margin-right: 20px;
+}
+.intro figure a {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.intro figcaption {
+	color: #797878;
+}
+.intro figcaption h1 {
+	height: 32px;
+	font-size: 16px;
+}
+.intro figcaption p {
+	line-height: 22px;
+	text-indent: 2em;
+}
+
+.case {
+	width: 100%;
+	margin-bottom: 60px;
+}
+.case ul {
+	overflow: hidden;
+}
+
+.case li {
+	float: left;
+	width: 250px;
+	height: 215px;
+	margin-bottom: 15px;
+	border: 1px solid #e2e2e2;
+	box-sizing: border-box;
+	background-color: #f9f9f9;
+	box-shadow: 0 3px 3px 1px rgba(192,192,192,0.5);
+}
+.case li:nth-child(2),
+.case li:nth-child(5) {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.case li a {
+	position: relative;
+	display: block;
+	width: 214px;
+	height: 150px;
+	margin: 15px auto;
+	overflow: hidden;
+}
+.case li a img,
+.intro figure a img {
+	width: 100%;
+	height: 100%;
+	transition: 0.6s linear;
+}
+.case li a img:nth-child(1),
+.intro figure a img:nth-child(1) {
+	z-index: 10;
+}
+.case li a img:nth-child(2),
+.intro figure a img:nth-child(2) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.case li span {
+	display: block;
+	height: 31px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #797878;
+	text-align: center;
+}
+.intro figure a img:nth-child(1),
+.case .roleft a img:nth-child(1),
+.case .rotop a img:nth-child(1),
+.case .roright a img:nth-child(2),
+.case .robottom a img:nth-child(2) {
+	transform-origin: 0 0;
+}
+.intro figure a img:nth-child(2),
+.case .roright a img:nth-child(1),
+.case .robottom a img:nth-child(1),
+.case .roleft a img:nth-child(2),
+.case .rotop a img:nth-child(2) {
+	transform-origin: 100% 100%;
+}
+.case .rotop img:nth-child(2),
+.case .robottom img:nth-child(2),
+.case .rotop:hover img:nth-child(1),
+.case .robottom:hover img:nth-child(1) {
+	transform: rotateX(180deg);
+}
+.case .rotop:hover img:nth-child(2),
+.case .robottom:hover img:nth-child(2),
+.intro figure:hover a img:nth-child(2) {
+	transform: rotateX(0deg);
+}
+.case .roleft a img:nth-child(2),
+.case .roright a img:nth-child(2),
+.case .roleft:hover img:nth-child(1),
+.case .roright:hover img:nth-child(1),
+.intro figure a img:nth-child(2),
+.intro figure:hover a img:nth-child(1) {
+	transform: rotateY(180deg);
+}
+.case .roleft:hover a img:nth-child(2),
+.case .roright:hover a img:nth-child(2),
+.intro figure:hover a img:nth-child(2),
+.intro figure a img:nth-child(1) {
+	transform: rotateY(0deg);;
+}
